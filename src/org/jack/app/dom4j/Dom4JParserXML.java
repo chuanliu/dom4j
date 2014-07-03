@@ -87,7 +87,7 @@ public class Dom4JParserXML {
 		catch (DocumentException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
 	}
 

@@ -33,7 +33,9 @@ public class CreateXML {
 			output.write(document);
 			output.close();
 		} catch (IOException e) {
-			System.out.println(e.getMessage());
+			
+			e.printStackTrace();
+
 		}
 	}
 
