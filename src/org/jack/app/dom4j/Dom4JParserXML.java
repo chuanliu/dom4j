@@ -14,7 +14,7 @@ import java.io.*;
 import org.dom4j.DocumentException;
 import org.dom4j.io.SAXReader;
 
-public class Dom4JParser {
+public class Dom4JParserXML {
 	public void modifyDocument(File inputXml) {
 		try {
 			SAXReader saxReader = new SAXReader();
@@ -92,7 +92,7 @@ public class Dom4JParser {
 	}
 
 	public static void main(String[] argv) {
-		Dom4JParser dom4jParser = new Dom4JParser();
+		Dom4JParserXML dom4jParser = new Dom4JParserXML();
 		dom4jParser.modifyDocument(new File("d:/catalog.xml"));
 	}
 }

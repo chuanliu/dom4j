@@ -6,7 +6,7 @@ import org.dom4j.Element;
 import org.dom4j.io.XMLWriter;
 import java.io.*;
 
-public class XmlDom4J {
+public class CreateXML {
 	public void generateDocument() {
 		Document document = DocumentHelper.createDocument();
 		Element catalogElement = document.addElement("catalog");
@@ -38,7 +38,7 @@ public class XmlDom4J {
 	}
 
 	public static void main(String[] argv) {
-		XmlDom4J dom4j = new XmlDom4J();
+		CreateXML dom4j = new CreateXML();
 		dom4j.generateDocument();
 	}
 }
