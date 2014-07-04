@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<MOTree>
+    <MO className="NodeBNE" fdn=".3221229568.3221274624.2148783199">
+        <attr name="fdn">.3221229568.3221274624.2148783199</attr>
+        <attr name="MOIndex">9330</attr>
+        <attr name="backupIP">10.214.245.101</attr>
+        <attr name="className">NodeBNE</attr>
+        <attr name="latitude">360.0</attr>
+        <attr name="longitude">2040.0</attr>
+        <attr name="matchVersion">iManagerM2000_NodeB3900LWCDMA_2U_MATCH_ENG_V200R012C00SPC012</attr>
+        <attr name="name">140WilliamSt_O3BH_33121_2312</attr>
+        <attr name="neID">9330</attr>
+        <attr name="neType">NodeB</attr>
+        <attr name="neVersion">BTS3900L WCDMA V200R014ENGC00SPC360</attr>
+        <attr name="realLatitude">0D0&apos;0&quot;S</attr>
+        <attr name="realLongitude">0D0&apos;0&quot;W</attr>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.3225900057">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3225900057</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_18_</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=UEIU, Cabinet No.=0, Subrack No.=0, Slot No.=18</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">18</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.3225888789">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3225888789</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=UTRP, Cabinet No.=0, Subrack No.=0, Slot No.=4</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">4</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.3225804366">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3225804366</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_WMPT</attr>
+            <attr name="boardType">WMPT</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=WMPT, Cabinet No.=0, Subrack No.=0, Slot No.=7</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">7</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.3225767500">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3225767500</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_16_</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=FAN, Cabinet No.=0, Subrack No.=0, Slot No.=16</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">16</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.2149810331">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149810331</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_19_</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=UPEU, Cabinet No.=0, Subrack No.=0, Slot No.=19</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">19</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.2149054160">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149054160</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_0_WBBP</attr>
+            <attr name="boardType">WBBP</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=WBBP, Cabinet No.=0, Subrack No.=0, Slot No.=0</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">0</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.2149054161">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149054161</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_1_WBBP</attr>
+            <attr name="boardType">WBBP</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=WBBP, Cabinet No.=0, Subrack No.=0, Slot No.=1</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">1</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.2149054162">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149054162</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_2_WBBP</attr>
+            <attr name="boardType">WBBP</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=WBBP, Cabinet No.=0, Subrack No.=0, Slot No.=2</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">2</attr>
+        </MO>
+        <MO className="NodeBBoard" fdn=".3221229568.3221274624.2148783199.2149054163">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149054163</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_3_WBBP</attr>
+            <attr name="boardType">WBBP</attr>
+            <attr name="className">NodeBBoard</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="name">Board Type=WBBP, Cabinet No.=0, Subrack No.=0, Slot No.=3</attr>
+            <attr name="neID">9330</attr>
+            <attr name="slotNo">3</attr>
+        </MO>
+        <MO className="NodeBCPPort" fdn=".3221229568.3221274624.2148783199.2149064244">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149064244</attr>
+            <attr name="CPPortNo">0</attr>
+            <attr name="CPPortType">NCP</attr>
+            <attr name="FLAG">MASTER</attr>
+            <attr name="MOIndex">9330_NCP_0_MASTER</attr>
+            <attr name="SAALLNKN">0</attr>
+            <attr name="className">NodeBCPPort</attr>
+            <attr name="name">Port Type=NCP</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBCPPort" fdn=".3221229568.3221274624.2148783199.2149064245">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149064245</attr>
+            <attr name="CPPortNo">1025</attr>
+            <attr name="CPPortType">CCP</attr>
+            <attr name="FLAG">MASTER</attr>
+            <attr name="MOIndex">9330_CCP_1025_MASTER</attr>
+            <attr name="SAALLNKN">1</attr>
+            <attr name="className">NodeBCPPort</attr>
+            <attr name="name">Port Type=CCP, CP Port No.=1025</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677202">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677202</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7__BASE_BOARD</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=N/A, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677203">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677203</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_6__BASE_BOARD</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">6</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=6, Port No.=N/A, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677204">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677204</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_5__E1_COVERBOARD</attr>
+            <attr name="SBT">E1_COVERBOARD</attr>
+            <attr name="SN">5</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=5, Port No.=N/A, Subboard Type=E1_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677205">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677205</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_3__E1_COVERBOARD</attr>
+            <attr name="SBT">E1_COVERBOARD</attr>
+            <attr name="SN">3</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=3, Port No.=N/A, Subboard Type=E1_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677206">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677206</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_2__E1_COVERBOARD</attr>
+            <attr name="SBT">E1_COVERBOARD</attr>
+            <attr name="SN">2</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=2, Port No.=N/A, Subboard Type=E1_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677207">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677207</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_1__E1_COVERBOARD</attr>
+            <attr name="SBT">E1_COVERBOARD</attr>
+            <attr name="SN">1</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=1, Port No.=N/A, Subboard Type=E1_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677208">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677208</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_0__E1_COVERBOARD</attr>
+            <attr name="SBT">E1_COVERBOARD</attr>
+            <attr name="SN">0</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=0, Port No.=N/A, Subboard Type=E1_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677209">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677209</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_3_BASE_BOARD</attr>
+            <attr name="PN">3</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=3, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677210">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677210</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_2_BASE_BOARD</attr>
+            <attr name="PN">2</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=2, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677211">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677211</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_1_BASE_BOARD</attr>
+            <attr name="PN">1</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=1, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBE1T1" fdn=".3221229568.3221274624.2148783199.2677212">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2677212</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_0_BASE_BOARD</attr>
+            <attr name="PN">0</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBE1T1</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=0, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014529">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014529</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_0</attr>
+            <attr name="PN">0</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=0, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014530">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014530</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_1</attr>
+            <attr name="PN">1</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=1, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014531">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014531</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_2</attr>
+            <attr name="PN">2</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=2, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014532">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014532</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_3</attr>
+            <attr name="PN">3</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=3, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014533">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014533</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_4</attr>
+            <attr name="PN">4</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=4, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014534">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014534</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_4_ETH_COVERBOARD_5</attr>
+            <attr name="PN">5</attr>
+            <attr name="SBT">ETH_COVERBOARD</attr>
+            <attr name="SN">4</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=4, Port No.=5, Subboard Type=ETH_COVERBOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014535">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014535</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_BASE_BOARD_0</attr>
+            <attr name="PN">0</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=0, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBETHPORT" fdn=".3221229568.3221274624.2148783199.2149014536">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149014536</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_7_BASE_BOARD_1</attr>
+            <attr name="PN">1</attr>
+            <attr name="SBT">BASE_BOARD</attr>
+            <attr name="SN">7</attr>
+            <attr name="SRN">0</attr>
+            <attr name="className">NodeBETHPORT</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0, Slot No.=7, Port No.=1, Subboard Type=BASE_BOARD</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBEquipment" fdn=".3221229568.3221274624.2148783199.3224059524">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3224059524</attr>
+            <attr name="MOIndex">9330</attr>
+            <attr name="className">NodeBEquipment</attr>
+            <attr name="name">NodeBEquipment</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBFrame" fdn=".3221229568.3221274624.2148783199.1075449922">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075449922</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_0_0_BBU3900</attr>
+            <attr name="className">NodeBFrame</attr>
+            <attr name="frameNo">0</attr>
+            <attr name="frameType">BBU3900</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=0</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBFrame" fdn=".3221229568.3221274624.2148783199.1075449923">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075449923</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_5_0_RFU</attr>
+            <attr name="className">NodeBFrame</attr>
+            <attr name="frameNo">5</attr>
+            <attr name="frameType">RFU</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=5</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBFrame" fdn=".3221229568.3221274624.2148783199.1075449924">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075449924</attr>
+            <attr name="CN">0</attr>
+            <attr name="MOIndex">9330_12_0_FMU</attr>
+            <attr name="className">NodeBFrame</attr>
+            <attr name="frameNo">12</attr>
+            <attr name="frameType">FMU</attr>
+            <attr name="name">Cabinet No.=0, Subrack No.=12</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBFunction" fdn=".3221229568.3221274624.2148783199.3223875204">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3223875204</attr>
+            <attr name="MOIndex">9330</attr>
+            <attr name="className">NodeBFunction</attr>
+            <attr name="name">NodeBFunction</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPATH" fdn=".3221229568.3221274624.2148783199.2148982755">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2148982755</attr>
+            <attr name="MOIndex">9330_1</attr>
+            <attr name="PATHID">1</attr>
+            <attr name="className">NodeBIPPATH</attr>
+            <attr name="name">IP Path ID=1</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPATH" fdn=".3221229568.3221274624.2148783199.2148982756">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2148982756</attr>
+            <attr name="MOIndex">9330_2</attr>
+            <attr name="PATHID">2</attr>
+            <attr name="className">NodeBIPPATH</attr>
+            <attr name="name">IP Path ID=2</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPATH" fdn=".3221229568.3221274624.2148783199.2148982757">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2148982757</attr>
+            <attr name="MOIndex">9330_3</attr>
+            <attr name="PATHID">3</attr>
+            <attr name="className">NodeBIPPATH</attr>
+            <attr name="name">IP Path ID=3</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPATH" fdn=".3221229568.3221274624.2148783199.2148982758">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2148982758</attr>
+            <attr name="MOIndex">9330_4</attr>
+            <attr name="PATHID">4</attr>
+            <attr name="className">NodeBIPPATH</attr>
+            <attr name="name">IP Path ID=4</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPMSESSION" fdn=".3221229568.3221274624.2148783199.2149007122">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149007122</attr>
+            <attr name="IPPMSN">1</attr>
+            <attr name="MOIndex">9330_1</attr>
+            <attr name="className">NodeBIPPMSESSION</attr>
+            <attr name="name">IP PM Session ID=1</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPMSESSION" fdn=".3221229568.3221274624.2148783199.2149007123">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149007123</attr>
+            <attr name="IPPMSN">2</attr>
+            <attr name="MOIndex">9330_2</attr>
+            <attr name="className">NodeBIPPMSESSION</attr>
+            <attr name="name">IP PM Session ID=2</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPMSESSION" fdn=".3221229568.3221274624.2148783199.2149007124">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149007124</attr>
+            <attr name="IPPMSN">3</attr>
+            <attr name="MOIndex">9330_3</attr>
+            <attr name="className">NodeBIPPMSESSION</attr>
+            <attr name="name">IP PM Session ID=3</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBIPPMSESSION" fdn=".3221229568.3221274624.2148783199.2149007125">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149007125</attr>
+            <attr name="IPPMSN">4</attr>
+            <attr name="MOIndex">9330_4</attr>
+            <attr name="className">NodeBIPPMSESSION</attr>
+            <attr name="name">IP PM Session ID=4</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243853">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243853</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_0</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">0</attr>
+            <attr name="name">LOCELL=0</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243854">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243854</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_1</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">1</attr>
+            <attr name="name">LOCELL=1</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243855">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243855</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_3</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">3</attr>
+            <attr name="name">LOCELL=3</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243856">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243856</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_4</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">4</attr>
+            <attr name="name">LOCELL=4</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243857">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243857</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_6</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">6</attr>
+            <attr name="name">LOCELL=6</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243858">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243858</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_7</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">7</attr>
+            <attr name="name">LOCELL=7</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243859">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243859</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_9</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">9</attr>
+            <attr name="name">LOCELL=9</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBLocalCell" fdn=".3221229568.3221274624.2148783199.1075243860">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075243860</attr>
+            <attr name="HORAD">0</attr>
+            <attr name="MOIndex">9330_10</attr>
+            <attr name="RADIUS">19300</attr>
+            <attr name="className">NodeBLocalCell</attr>
+            <attr name="localCellNo">10</attr>
+            <attr name="name">LOCELL=10</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBName" fdn=".3221229568.3221274624.2148783199.3225738828">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3225738828</attr>
+            <attr name="className">NodeBName</attr>
+            <attr name="name">MML Static Configuration</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBOMCH" fdn=".3221229568.3221274624.2148783199.3224088203">
+            <attr name="fdn">.3221229568.3221274624.2148783199.3224088203</attr>
+            <attr name="FLAG">MASTER</attr>
+            <attr name="MOIndex">9330_MASTER</attr>
+            <attr name="className">NodeBOMCH</attr>
+            <attr name="name">Master/Slave Flag=MASTER, Bearer Type=IPV4</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBSCTPLNK" fdn=".3221229568.3221274624.2148783199.2149304304">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149304304</attr>
+            <attr name="MOIndex">9330_0</attr>
+            <attr name="SCTPNO">0</attr>
+            <attr name="className">NodeBSCTPLNK</attr>
+            <attr name="name">SCTP Link No.=0</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBSCTPLNK" fdn=".3221229568.3221274624.2148783199.2149304305">
+            <attr name="fdn">.3221229568.3221274624.2148783199.2149304305</attr>
+            <attr name="MOIndex">9330_1</attr>
+            <attr name="SCTPNO">1</attr>
+            <attr name="className">NodeBSCTPLNK</attr>
+            <attr name="name">SCTP Link No.=1</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBSEC" fdn=".3221229568.3221274624.2148783199.1075921173">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075921173</attr>
+            <attr name="MOIndex">9330_33121_0</attr>
+            <attr name="SECN">0</attr>
+            <attr name="STN">33121</attr>
+            <attr name="className">NodeBSEC</attr>
+            <attr name="name">Sector No.=0, Site No.=33121</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+        <MO className="NodeBSEC" fdn=".3221229568.3221274624.2148783199.1075921174">
+            <attr name="fdn">.3221229568.3221274624.2148783199.1075921174</attr>
+            <attr name="MOIndex">9330_33121_1</attr>
+            <attr name="SECN">1</attr>
+            <attr name="STN">33121</attr>
+            <attr name="className">NodeBSEC</attr>
+            <attr name="name">Sector No.=1, Site No.=33121</attr>
+            <attr name="neID">9330</attr>
+        </MO>
+    </MO>
+</MOTree>

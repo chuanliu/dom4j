@@ -19,6 +19,15 @@ public class Dom4JParserXML {
 		try {
 			SAXReader saxReader = new SAXReader();
 			Document document = saxReader.read(inputXml);
+			Element root= document.getRootElement();
+			
+			for ( Iterator i = root.elementIterator(); i.hasNext(); ) {
+				Element element = (Element) i.next();
+				System.out.println(element.asXML());
+				}
+			
+			
+			
 			String stringXML = document.asXML();
 			List<Attribute> list = document.selectNodes("//article/@level");
 
