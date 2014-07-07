@@ -13,11 +13,11 @@ import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
 public class Perser {
-	public void modifyDocument() {
+	public void perserDocument() {
 		try {
 			SAXReader saxReader = new SAXReader();
 			long start=System.nanoTime();
-			Document document = saxReader.read(new File("src/hwcm_bigfile.xml"));
+			Document document = saxReader.read(new File("D:/hwcm_bigfile.xml"));
 			Element root = document.getRootElement();
 			Iterator rootIter = root.elementIterator();
 			List<MO> listmo= new ArrayList();
@@ -67,6 +67,6 @@ public class Perser {
 
 	public static void main(String[] argv) {
 		Perser dom4jParser = new Perser();
-		dom4jParser.modifyDocument();
+		dom4jParser.perserDocument();
 	}
 }
