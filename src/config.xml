@@ -1,0 +1,69 @@
+<filterConfig xmlns="http://ian.digicompass.com/schema/data"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ian.digicompass.com/schema/data http://ian.digicompass.com/schema/data/ian-data.xsd">
+<source name="Alarm" object-model="Alarm">
+<properties>
+<property>*</property>
+</properties>
+<filters>
+<filter></filter>
+</filters>
+</source>
+
+ 
+<dimension name="administrative area">
+<metric name="state" object-model="State"></metric>
+<metric name="suburb" object-model="Suburb"></metric>
+</dimension>
+ 
+<dimension name="alarm type">
+<metric name="type" object-model="AlarmType"></metric>
+<metric name="subtype" object-model="AlarmSubType"></metric>
+</dimension>
+ 
+<dimension name="time">
+<metric name="day" object-model="Day"></metric>
+<metric name="hour" object-model="Hour"></metric>
+</dimension>
+ 
+<measurement name="AlarmCount" object-model="Alarm" function="count" />
+ 
+<pivot name="AlarmPivot-1" object-model="Alarm" description="Alarm Counts">
+<dimensions order="strict">
+<group description="Group by time, area, and alarm type">
+<dimension ref="time" />
+<dimension ref="administrative area" />
+<dimension ref="alarm type" />
+</group>
+<group>
+<dimension ref="administrative area" />
+<dimension ref="time" />
+<dimension ref="alarm type" />
+</group>
+</dimensions>
+<measurements>
+<measurement ref="AlarmCount" />
+</measurements>
+</pivot>
+ 
+<pivot name="AlarmPivot" object-model="Alarm">
+<dimensions order="auto">
+<group>
+<dimension ref="time" />
+<dimension ref="administrative area" />
+<dimension ref="alarm type" />
+</group>
+</dimensions>
+<measurements>
+<measurement ref="AlarmCount" />
+</measurements>
+</pivot>
+ 
+<profile name="Alarm Operator">
+
+<pivots>
+<pivot ref=""/>
+<pivot ref=""/>
+</pivots>
+</profile>
+</filterConfig>

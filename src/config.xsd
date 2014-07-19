@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:simpleType name="orderType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="strict"/>
+			<xs:enumeration value="auto"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="filterConfig">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="source"/>
+				<xs:element ref="dimension" maxOccurs="unbounded"/>
+				<xs:element ref="measurement"/>
+				<xs:element ref="pivot" maxOccurs="unbounded"/>
+				<xs:element ref="profile"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="source">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="properties"/>
+				<xs:element ref="filters"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:NCName" use="required"/>
+			<xs:attribute name="object-model" type="xs:NCName" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="properties">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="property"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="property" type="xs:string"/>
+	<xs:element name="filters">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="filter"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="filter">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="profile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="pivots"/>
+			</xs:sequence>
+			<xs:attribute name="name" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pivots">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="pivot" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dimension">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="metric" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="name"/>
+			<xs:attribute name="ref"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="metric">
+		<xs:complexType>
+			<xs:attribute name="name" type="xs:NCName" use="required"/>
+			<xs:attribute name="object-model" type="xs:NCName" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="measurement">
+		<xs:complexType>
+			<xs:attribute name="function" type="xs:NCName"/>
+			<xs:attribute name="name" type="xs:NCName"/>
+			<xs:attribute name="object-model" type="xs:NCName"/>
+			<xs:attribute name="ref" type="xs:NCName"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pivot">
+		<xs:complexType>
+			<xs:sequence minOccurs="0">
+				<xs:element ref="dimensions"/>
+				<xs:element ref="measurements"/>
+			</xs:sequence>
+			<xs:attribute name="description"/>
+			<xs:attribute name="name" type="xs:NCName"/>
+			<xs:attribute name="object-model" type="xs:NCName"/>
+			<xs:attribute name="ref"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dimensions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="group" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="order" type="orderType" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="group">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="dimension" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="description"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="measurements">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="measurement"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

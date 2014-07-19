@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="journal">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="article"/>
+			</xs:sequence>
+			<xs:attribute name="publisher" use="required"/>
+			<xs:attribute name="title" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="article">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="author"/>
+			</xs:sequence>
+			<xs:attribute name="date" type="xs:NCName" use="required"/>
+			<xs:attribute name="level" type="xs:NCName" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="title" type="xs:string"/>
+	<xs:element name="author">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="firstname"/>
+				<xs:element ref="lastname"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="firstname" type="xs:NCName"/>
+	<xs:element name="lastname" type="xs:NCName"/>
+</xs:schema>
